@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="net.alexanders.texteditor.TextEditor">
+  <grid id="27dc6" binding="mainPanel" layout-manager="GridLayoutManager" row-count="2" column-count="1" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="522" height="400"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <component id="1ccfe" class="javax.swing.JEditorPane" binding="editorPane1" custom-create="true" default-binding="true">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <contentType value="text/html"/>
+          <enabled value="true"/>
+          <font name="Courier New"/>
+        </properties>
+      </component>
+      <toolbar id="a491f" binding="Toolbar">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="6" anchor="0" fill="1" indent="0" use-parent-layout="false">
+            <preferred-size width="-1" height="20"/>
+          </grid>
+        </constraints>
+        <properties/>
+        <border type="none"/>
+        <children>
+          <component id="aae23" class="javax.swing.JButton" binding="openButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <actionCommand value="open"/>
+              <icon value="Assets/general/Open24.gif"/>
+              <text value="Open"/>
+            </properties>
+          </component>
+          <component id="fb19" class="javax.swing.JButton" binding="saveButton" default-binding="true">
+            <constraints/>
+            <properties>
+              <actionCommand value="save"/>
+              <icon value="Assets/general/Save24.gif"/>
+              <text value="Save"/>
+            </properties>
+          </component>
+          <component id="b7761" class="javax.swing.JButton" binding="boldButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <actionCommand value=""/>
+              <icon value="Assets/text/Bold24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b63fc" class="javax.swing.JButton" binding="underlineButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <actionCommand value="underline"/>
+              <icon value="Assets/text/Underline24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="c9296" class="javax.swing.JButton" binding="italicButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <actionCommand value="italic"/>
+              <icon value="Assets/text/Italic24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="a5531" class="javax.swing.JButton" binding="cutButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <icon value="Assets/general/Cut24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="4f797" class="javax.swing.JButton" binding="copyButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <icon value="Assets/general/Copy24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="d54db" class="javax.swing.JButton" binding="pasteButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <icon value="Assets/general/Paste24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="7f6ec" class="javax.swing.JButton" binding="shrinkButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <icon value="Assets/navigation/Down24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="e0383" class="javax.swing.JButton" binding="enlargeButton" custom-create="true">
+            <constraints/>
+            <properties>
+              <icon value="Assets/navigation/Up24.gif"/>
+              <text value=""/>
+            </properties>
+          </component>
+          <component id="b2c0b" class="javax.swing.JButton" binding="aboutButton">
+            <constraints/>
+            <properties>
+              <actionCommand value="about"/>
+              <icon value="Assets/general/About24.gif"/>
+              <text value="About"/>
+            </properties>
+          </component>
+        </children>
+      </toolbar>
+    </children>
+  </grid>
+</form>
